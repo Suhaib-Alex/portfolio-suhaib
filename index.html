@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhaib Portfolio</title>
+    <link rel="link icon" type="x-icone" href="miror.png">
+    <link rel="stylesheet" href="personal website.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("1Crnv6n3UoD4C7I0G");
+   })();
+</script>
+</head>
+<body>
+   
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1"class="b1">Home</a>
+            <a href="#about" style="--i:2"class="b2">About</a>
+            <a href="#skills" style="--i:3"class="b3">Skill</a>
+            <a href="#project" style="--i:4"class="b4">My project</a>
+            <a href="#contact" style="--i:5"class="b5">Contact</a>
+        </nav>               
+    </header>
+                         <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Muhammed Suhaib</h1>
+            <h3 style="font-size: 25px;margin-bottom: 50px;color: rgb(33, 154, 219)"><span style="color: rgb(0, 0, 0);">I'm</span>&nbsp; a &nbsp;
+                <span class="span2">Full Stack Developer</span></h3>
+            <p>I'm a web Designer. <br>
+                expertise is to create and website design, Frontend design, and any more...</p>
+              <div class="home-sci">
+                <a href="https://www.facebook.com/profile.php?id=100073352894286" target="_blank" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://instagram.com/suhaii.bb?igshid=NGVhN2U2NjQ0Yg==" target="_blank" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="http://wa.me/7306890297" style="--i:9" target="_blank"><i class='bx bxl-whatsapp'  ></i></a>
+                <a href="#" style="--i:10" target="_blank"><i class='bx bxl-linkedin'></i></a>
+              </div> 
+              <a href="#about" class="btn-box">More About Me </a> 
+        </div>
+    <span class="home-imgHover">
+        <div class="profile"><img src="profile.png" alt="Profile" width="500px" height="400px" class="prf"></div>
+    </span>
+    </section>    
+                            <!-- About -->
+                            <div id="about">
+                                <p><br></p>                                
+<section class="about">
+    <div class="about-1">              
+            <div class="about-content">
+                <img src="miror.png" alt="photo" width="200px" height="200px" ><h2 class="about-title">About Me</h2>
+        <h3 class="about-title-2">Full Stack Developer</h3> <p></p>A individual who operates on the front end and back end of a web - based application is known as a full stack developer. While the back end is in charge of the site's architecture and logic in the background, the front end is in charge of the website's aesthetic appearance and feel.</p>
+            </div>       
+            </div>
+</section>
+</div>                                     <!-- Skill -->
+                                <div class="container" >                                   
+                                    <section id="skills" class="skill">                                        
+                <p><br><br><br></p>
+                <h3 style="font-size: 45px;margin-bottom: 50px;color: rgb(33, 154, 219)"><span style="color: white;"><span class="span3" >MY SKILLS</span></h3>
+                <div class="container py-5">
+                    <div class="row pb-5">
+          
+                        <div class="progress">
+                            <div class="pro-value1">
+                                <p>HTML / CSS<span class="text-white float-right"> 95%</span></p>
+                            </div>
+                        </div>
+          
+                        <div class="progress">
+                            <div class="pro-value2">
+                                <p>JAVASCRIPT<span class="text-white float-right "> 75%</span></p><br><br>
+                            </div>
+                        </div>
+          
+                        <div class="progress">
+                            <div class="pro-value3">
+                                <p>BOOTSTRAP<span class="text-white float-right "> 50%</span></p>
+                            </div>
+                        </div>         
+                            
+                    </div>
+                </div>
+                
+            </section> 
+        </div>
+               
+                <!-- project -->
+
+                    <div class="container">
+                        <section>                                                  
+                            <div class="projects" id="project">
+                                <h1>Projects:</h1>                                
+                                <div class="pic1"><p><img src="linkedin.png" alt="linkedin" width="400px" height="300px"></p></div>
+                                <div class="pic2"><img src="w3school.pnj.png" alt="w3school" width="400px" height="300px"></div>
+                            </div>
+                        </section>
+                    </div>  
+                    <!-- contact-->
+                    <div class="cont">
+<section class="contact-form" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" class="inp" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="inp" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" class="inp" required></textarea>
+      </div>
+      <button type="submit" onclick="sendMail()" class="but">Submit</button>
+    </form>
+  </section>
+</div>
+  
+   <script src="personal website.js"></script>
+   <script src="/js/bootstrap.js"></script>
+
+</body>
+</html>
